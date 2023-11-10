@@ -1,0 +1,76 @@
+#include <iostream>
+#include <cmath>
+
+class FlyingObject {
+    // Implémentez la classe FlyingObject si elle n'est pas déjà implémentée.
+};
+
+class Spaceship : public FlyingObject {
+private:
+    double angle; // Angle d'orientation du vaisseau en degrés
+    double velocityX; // Composante horizontale de la vitesse
+    double velocityY; // Composante verticale de la vitesse
+
+public:
+    Spaceship(double x, double y, double size, double initialAngle)
+        : angle(initialAngle), velocityX(0.0), velocityY(0.0) {
+        // Implémentez le constructeur ici.
+    }
+
+    double GetAngle() {
+        return angle;
+    }
+
+    void SpeedUp(double accelerationFactor) {
+        // Calcul de la nouvelle vitesse en fonction de l'angle
+        double radians = (M_PI * (180 - angle)) / 180;
+        double accelerationX = accelerationFactor * cos(radians);
+        double accelerationY = accelerationFactor * sin(radians);
+
+        // Ajout de l'accélération à la vitesse
+        velocityX += accelerationX;
+        velocityY += accelerationY;
+    }
+
+    void SpeedDown(double decelerationFactor) {
+        // Implémentez la décélération ici en utilisant le même principe que l'accélération.
+    }
+
+    void Rotate(double rotationAngle) {
+        // Implémentez la rotation du vaisseau ici.
+        angle += rotationAngle;
+    }
+};
+
+int main() {
+    // Créez un vaisseau spatial
+    Spaceship spaceship(0.0, 0.0, 10.0, 0.0); // Exemple de paramètres
+
+    // Contrôles du vaisseau spatial
+    while (true) {
+        char input;
+        std::cout << "Contrôles : (H)aut, (B)as, (G)auche, (D)roite, (Q)uitter : ";
+        std::cin >> input;
+
+        switch (input) {
+            case 'H':
+                spaceship.SpeedUp(0.1); // Augmentez le facteur d'accélération selon vos besoins.
+                break;
+            case 'B':
+                spaceship.SpeedDown(0.1); // Augmentez le facteur de décélération selon vos besoins.
+                break;
+            case 'G':
+                spaceship.Rotate(-15.0); // Rotation vers la gauche (ajustez l'angle).
+                break;
+            case 'D':
+                spaceship.Rotate(15.0); // Rotation vers la droite (ajustez l'angle).
+                break;
+            case 'Q':
+                return 0; // Quittez le programme.
+            default:
+                std::cout << "Commande non reconnue." << std::endl;
+        }
+    }
+
+    return 0;
+}

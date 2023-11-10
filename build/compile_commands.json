@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/usr/local/Cellar/sdl2/2.28.2/include -isystem /usr/local/Cellar/sdl2/2.28.2/include/SDL2 -g -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/SDLTEST.dir/main.cpp.o -c \"/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/main.cpp\"",
+  "file": "/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/main.cpp",
+  "output": "CMakeFiles/SDLTEST.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/usr/local/Cellar/sdl2/2.28.2/include -isystem /usr/local/Cellar/sdl2/2.28.2/include/SDL2 -g -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/SDLTEST.dir/Framework.cpp.o -c \"/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/Framework.cpp\"",
+  "file": "/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/Framework.cpp",
+  "output": "CMakeFiles/SDLTEST.dir/Framework.cpp.o"
+},
+{
+  "directory": "/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/usr/local/Cellar/sdl2/2.28.2/include -isystem /usr/local/Cellar/sdl2/2.28.2/include/SDL2 -g -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/SDLTEST.dir/FlyingObject.cpp.o -c \"/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/FlyingObject.cpp\"",
+  "file": "/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/FlyingObject.cpp",
+  "output": "CMakeFiles/SDLTEST.dir/FlyingObject.cpp.o"
+},
+{
+  "directory": "/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/usr/local/Cellar/sdl2/2.28.2/include -isystem /usr/local/Cellar/sdl2/2.28.2/include/SDL2 -g -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/SDLTEST.dir/Asteroid.cpp.o -c \"/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/Asteroid.cpp\"",
+  "file": "/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/Asteroid.cpp",
+  "output": "CMakeFiles/SDLTEST.dir/Asteroid.cpp.o"
+},
+{
+  "directory": "/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/usr/local/Cellar/sdl2/2.28.2/include -isystem /usr/local/Cellar/sdl2/2.28.2/include/SDL2 -g -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/SDLTEST.dir/Missile.cpp.o -c \"/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/Missile.cpp\"",
+  "file": "/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/Missile.cpp",
+  "output": "CMakeFiles/SDLTEST.dir/Missile.cpp.o"
+},
+{
+  "directory": "/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/usr/local/Cellar/sdl2/2.28.2/include -isystem /usr/local/Cellar/sdl2/2.28.2/include/SDL2 -g -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/SDLTEST.dir/Spaceship.cpp.o -c \"/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/Spaceship.cpp\"",
+  "file": "/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/Spaceship.cpp",
+  "output": "CMakeFiles/SDLTEST.dir/Spaceship.cpp.o"
+}
+]

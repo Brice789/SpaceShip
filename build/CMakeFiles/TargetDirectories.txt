@@ -1,0 +1,3 @@
+/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/build/CMakeFiles/SDLTEST.dir
+/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/build/CMakeFiles/edit_cache.dir
+/Users/bricelewis/Desktop/SpaceShip 17.25.57/projet/projetUnix/build/CMakeFiles/rebuild_cache.dir
